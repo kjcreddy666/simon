@@ -20,7 +20,7 @@ h1,h2 {
 
 h1 {font-size: 4rem;}
 
-h2 {font-size: 3rem;}
+h2 {font-size: 1.5rem;}
 
 .row {
     width : fit-content;
@@ -36,10 +36,14 @@ button {
     cursor: pointer;
 }
 
-#green {background-color: green;}
-#red {background-color: red;}
-#yellow {background-color: yellow;}
-#blue {background-color: blue;}
+.green {background-color: green;}
+.red {background-color: red;}
+.yellow {background-color: yellow;}
+.blue {background-color: blue;}
+
+.flash {
+    background-color: #fff;
+}
 
 @media(max-width : 1300px) {
     h1,h2 {
