@@ -17,12 +17,15 @@ let allBtns = {
     "blue" : btns[3]
 };
 
-document.addEventListener("keypress", function () {
+let game = function() {
     if(!started) {
         started = true;
         setTimeout(levelUp(),1500);
     }
-});
+}
+
+document.addEventListener("keypress", game);
+document.addEventListener("touchstart",game);
 
 let levelUp = function() {
     userSeq = [];
