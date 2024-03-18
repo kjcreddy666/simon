@@ -56,7 +56,7 @@ for(let btn of btns) {
 let check = function(index) {
     if(userSeq[index] == gameSeq[index]) {
         if(userSeq.length == gameSeq.length) {
-            setTimeout(levelUp(),2000);
+            setTimeout(levelUp,2000);
         }
     } else if(started){
         reset();
