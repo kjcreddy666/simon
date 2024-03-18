@@ -25,7 +25,6 @@ let game = function() {
 }
 
 document.addEventListener("keypress", game);
-document.addEventListener("touchstart",game);
 
 let levelUp = function() {
     userSeq = [];
