@@ -20,7 +20,7 @@ let allBtns = {
 let game = function() {
     if(!started) {
         started = true;
-        setTimeout(levelUp(),1500);
+        setTimeout(levelUp,2000);
     }
 }
 
@@ -38,7 +38,7 @@ let levelUp = function() {
 
 let btnFlash = function(btn) {
     btn.classList.add("flash");
-    setInterval(function () {
+    setTimeout(function () {
         btn.classList.remove("flash");
     }, 400);
 }
